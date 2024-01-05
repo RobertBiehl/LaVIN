@@ -12,7 +12,7 @@ dependencies:
   - python-devtools
   - pip
   - pip:
-     -  torch==1.13.0 # its already in the conda deps
+      - torch==1.13.0 # its already in the conda deps
       - fairscale
       - fire
       - sentencepiece
