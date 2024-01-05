@@ -1,17 +1,16 @@
 name: lavinpy38
 channels:
-  - apple
   - pytorch
   - conda-forge
   - anaconda
   - defaults
 dependencies:
   - python==3.8.*
-  - python-devtools
-  - pip
   - pytorch==1.12.1
   - torchvision==0.13.1
   - torchaudio==0.12.1
+  - python-devtools
+  - pip
   - pip:
 #     -  torch==1.13.0 # its already in the conda deps
       - fairscale
@@ -23,4 +22,5 @@ dependencies:
       - ftfy
       - gradio
       - bitsandbytes==0.39.0
+      - scipy
       - -e . # and this package
